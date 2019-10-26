@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+			  xmlns:gs="http://localhost/movies"> <soapenv:Header/>
+<soapenv:Body>
+      <gs:getMovieRequest>
+         <gs:name>Superman</gs:name>
+      </gs:getMovieRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
